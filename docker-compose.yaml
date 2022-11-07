@@ -1,0 +1,10 @@
+version: "1.0"
+services:
+  tff:
+    ports:
+      - "80-84:8000"
+    image: "gcr.io/tensorflow-federated/remote-executor-service:latest"
+    expose:
+      - "8000"
+    volumes:
+      - /home/:/home/
