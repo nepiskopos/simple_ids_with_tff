@@ -1,5 +1,4 @@
 tensorflow-federated
-tensorflow
 nest-asyncio
 pandas
 matplotlib
